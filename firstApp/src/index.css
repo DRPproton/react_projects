@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  background-color: #21222A;
+  background-color: #21222a;
   height: 90px;
   padding: 30px 25px;
 }
@@ -21,7 +21,7 @@ nav > img {
 }
 
 nav > span {
-  color: #61DAFB;
+  color: #61dafb;
   font-size: 1.5rem;
   font-weight: 800;
 }
@@ -43,4 +43,9 @@ main > h1 {
 .facts-list > li {
   padding-block: 10px;
   line-height: 20px;
+}
+
+.facts-list > li::marker {
+  color: #61dafb;
+  font-size: 1.5rem;
 }
